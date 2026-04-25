@@ -152,7 +152,7 @@ try {
     double hasil = nilai1 - nilai2;
     jTextArea1.setText("nilai 1: " + nilai1 + "\n" +
                        "nilai 2: " + nilai2 + "\n" +
-                       "progres: +\n" +
+                       "progres: -\n" +
                        "hasil: " + hasil);
 } catch (NumberFormatException e) {
     jTextArea1.setText("Error: Pastikan Nilai 1 dan Nilai 2 diisi dengan angka!");
@@ -170,7 +170,7 @@ try {
         double hasil = nilai1 / nilai2;
         jTextArea1.setText("nilai 1: " + nilai1 + "\n" +
                        "nilai 2: " + nilai2 + "\n" +
-                       "progres: +\n" +
+                       "progres: /\n" +
                        "hasil: " + hasil);
     }
 } catch (NumberFormatException e) {
@@ -192,7 +192,7 @@ jTextField1.requestFocus(); // Biar kursor otomatis kedip-kedip di Nilai 1 lagi
     double hasil = nilai1 * nilai2;
     jTextArea1.setText("nilai 1: " + nilai1 + "\n" +
                        "nilai 2: " + nilai2 + "\n" +
-                       "progres: +\n" +
+                       "progres: *\n" +
                        "hasil: " + hasil);
 } catch (NumberFormatException e) {
     jTextArea1.setText("Error: Pastikan Nilai 1 dan Nilai 2 diisi dengan angka!");
